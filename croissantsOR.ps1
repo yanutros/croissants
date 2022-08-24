@@ -1,5 +1,7 @@
-Start-Process "C:\Program Files\Rocket.Chat+\Rocket.Chat.exe" $wshell
-Start-Sleep 4
+Start-Process "C:\Program Files\Rocket.Chat+\Rocket.Chat.exe"
+Start-Sleep 3
+$wshell
+Start-Sleep 1
 $wshell = New-Object -ComObject wscript.shell;
 $wshell.AppActivate('Cosium.Chat')
 Sleep 1
